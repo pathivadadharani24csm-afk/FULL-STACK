@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Webpage</title>
+</head>
+
+<body>
+    <!-- header refers to the top section of the webpage -->
+    <header>
+        <h1>My College Website</h1>
+        <!-- nav bar refers to the navigation elements section -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- section refers to the individual sections of the webpage which are defined by their IDs -->
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>
+                This webpage is created using HTML5 semantic elements.
+                It demonstrates the basic structure of a webpage.
+            </p>
+        </section>
+
+        <hr>
+        <!-- article refers to the part of the webpage containing a self-contained piece of content -->
+         <!-- these are necessary in representing the article and other blogs etc... -->
+        <article>
+            <h2>About HTML5</h2>
+
+            <p>
+                HTML5 provides semantic tags that make webpages easy to
+                understand for both users and search engines.
+            </p>
+        </article>
+
+        <hr>
+
+        <!-- aside refers to the side panel containing supplementary information -->
+        <aside id="about" align="center">
+            <h3>Quick Facts</h3>
+
+            <ul>
+                <li>Easy to learn</li>
+                <li>Supports multimedia</li>
+                <li>Works with CSS and JavaScript</li>
+            </ul>
+
+        </aside>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <!-- form section is used to collect user input -->
+            <form>
+
+                <label>Name:</label><br>
+                <input type="text" placeholder="Enter your name" required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Enter your email" required><br><br>
+
+                <label>Department:</label><br>
+                <!-- select tag is used to give the users a dropdown menu and they can select an field -->
+                <select>
+                    <option>CSE</option>
+                    <option>AIML</option>
+                    <option>ECE</option>
+                </select>
+
+                <br><br>
+
+                <label>Message:</label><br>
+                <textarea rows="4" cols="30"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p align="center">
+            &copy; 2026 My College Website
+        </p>
+    </footer>
+
+</body>
+
+</html>
